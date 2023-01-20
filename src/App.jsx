@@ -19,8 +19,8 @@ export const App = () => {
         title="Upload stats"
         stats={data}
       />
-      <FriendList friends={friendslist} />
+      <FriendList friends={friendslist}
+      />
     </div>
   );
 };
-console.log(friendslist)
