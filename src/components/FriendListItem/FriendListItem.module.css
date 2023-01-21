@@ -1,0 +1,21 @@
+.item{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    background-color: rgb(210, 248, 149);
+    box-shadow: 4px 4px rgb(97, 59, 59);
+}
+.avatar{
+margin-left: 30px;
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 5px;
+}
+/* .status{
+
+} */
+.name{
+    margin-left: 20px;
+    font-weight: 700;
+}

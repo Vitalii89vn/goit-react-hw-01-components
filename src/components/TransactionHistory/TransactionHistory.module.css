@@ -1,0 +1,6 @@
+
+.transactionhistory{
+  margin-left: 40px;
+    table-layout: fixed;
+    border-collapse: collapse;
+  }
