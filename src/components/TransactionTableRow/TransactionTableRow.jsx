@@ -3,10 +3,10 @@ import css from "./TransactionTableRow.module.css";
 
 const TransactionTableRow = ({ type, amount, currency }) => {
     return (
-        <tr >
-            <td className={css.row}>{type}</td>
-            <td className={css.row}>{amount}</td>
-            <td className={css.row}>{currency}</td>
+        <tr className={css.row}>
+            <td className={css.td}>{type}</td>
+            <td className={css.td}>{amount}</td>
+            <td className={css.td}>{currency}</td>
         </tr>
     )
 };

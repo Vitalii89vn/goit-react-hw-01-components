@@ -1,6 +1,9 @@
 
 .transactionhistory{
-  margin-left: 40px;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     table-layout: fixed;
     border-collapse: collapse;
+    box-shadow: 4px 4px rgb(190, 117, 117);
   }

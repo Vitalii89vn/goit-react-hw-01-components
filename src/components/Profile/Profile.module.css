@@ -20,27 +20,28 @@
     font-weight: 700;
     color: blue;
 }
-.tag {
+.tag, .location {
     font-size: 18px;
     font-weight: 700;
     color: #555;
 }
 .location{
-    font-size: 18px;
-    font-weight: 700;
     color: #444;
 }
 .stats{
     display: flex;
     padding-left: 80px;
-    }
+}
 .list{
     display: flex;
     flex-direction: column;
     width: 80px;
-    }
+}
 .label, .quantity{
     font-size: 18px;
     font-weight: 600;
 }
-
+.quantity{
+    color: indigo;
+    margin-top: 10px;
+}

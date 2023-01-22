@@ -3,8 +3,8 @@
     display: flex;
     flex-direction: row;
     margin: 10px;
-    background-color: rgb(210, 248, 149);
-    box-shadow: 4px 4px rgb(97, 59, 59);
+    background-color: rgb(235, 243, 221);
+    box-shadow: 4px 4px 2px rgb(97, 59, 59);
 }
 .avatar{
 margin-left: 30px;
@@ -21,7 +21,9 @@ border-radius: 5px;
     margin-top: 20px;
     margin-left: 20px;
     fill: red;
+    stroke: red;
 }
 .online{
     fill: green;
+    stroke: green;
 }
