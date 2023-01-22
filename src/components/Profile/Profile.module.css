@@ -31,11 +31,13 @@
 .stats{
     display: flex;
     padding-left: 80px;
+    
 }
 .list{
     display: flex;
     flex-direction: column;
     width: 80px;
+    background-color: #fff;
 }
 .label, .quantity{
     font-size: 18px;
