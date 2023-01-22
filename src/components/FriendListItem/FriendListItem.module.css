@@ -20,10 +20,10 @@ border-radius: 5px;
 .status {
     margin-top: 20px;
     margin-left: 20px;
-    fill: red;
-    stroke: red;
+    fill: rgb(207, 48, 48);
+    stroke:rgb(207, 48, 48)
 }
 .online{
-    fill: green;
-    stroke: green;
+    fill: rgb(6, 161, 6);
+    stroke: rgb(6, 161, 6);
 }

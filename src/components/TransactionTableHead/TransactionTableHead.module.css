@@ -4,6 +4,5 @@
     color: rgb(232, 241, 241);
     text-transform: uppercase;
     padding: 10px;
-    
-    
-}
+    min-width: 100px;
+    }
