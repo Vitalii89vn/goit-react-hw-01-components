@@ -1,10 +1,10 @@
 import TransactionTableRow from "components/TransactionTableRow/TransactionTableRow";
 import css from "./TransactionTableBody.module.css";
 
-const TransactionTableBody = ({ transactions }) => {
+const TransactionTableBody = ({ items }) => {
     return (
         <tbody className={css.body}>
-            {transactions.map(({ id, type, amount, currency }) => (
+            {items.map(({ id, type, amount, currency }) => (
                 <TransactionTableRow
                     key={id}
                     type={type}

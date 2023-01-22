@@ -3,19 +3,19 @@ import TransactionTableHead from "components/TransactionTableHead/TransactionTab
 import TransactionTableBody from "components/TransactionTableBody/TransactionTableBody";
 import css from "./TransactionHistory.module.css";
 
-const TransactionHistory = (({ transactions }) => {
+const TransactionHistory = (({ items }) => {
     return (
     <table className={css.transactionhistory}>
             <TransactionTableHead />
             <TransactionTableBody
-                  transactions = {transactions}
+                  items = {items}
                 />        
         </table>
     )
 }
 );
 TransactionHistory.propTypes = {
-    transactions: arrayOf(PropTypes.exact({
+    items: arrayOf(PropTypes.exact({
         id: PropTypes.string,
         type: PropTypes.string,
         amount: PropTypes.string,
