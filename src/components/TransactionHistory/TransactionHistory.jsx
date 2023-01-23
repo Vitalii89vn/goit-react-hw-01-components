@@ -1,11 +1,11 @@
-import PropTypes, { arrayOf } from "prop-types";
+import PropTypes from "prop-types";
 import css from "./TransactionHistory.module.css";
 
 const TransactionHistory = (({ items }) => {
     return (
         <table className={css.transactionhistory}>
             <thead>
-                <tr>
+                <tr >
                 <th className={css.thead}>Type</th>
                 <th className={css.thead}>Amount</th>
                 <th className={css.thead}>Currency</th>
@@ -25,11 +25,12 @@ const TransactionHistory = (({ items }) => {
 }
 );
 TransactionHistory.propTypes = {
-    items: arrayOf(PropTypes.exact({
+    items: PropTypes.arrayOf(PropTypes.exact({
         id: PropTypes.string.isRequired,
         type: PropTypes.string.isRequired,
         amount: PropTypes.string.isRequired,
         currency: PropTypes.string.isRequired,
-  })).isRequired,
-}
+    })).isRequired,
+};
+
 export default TransactionHistory;

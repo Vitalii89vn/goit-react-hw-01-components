@@ -8,7 +8,9 @@ const Statictics = (({ title, stats} ) => {
       {title && <h2 className={css.title}>{title}</h2>}
       <ul className={css.statlist}>
         {stats.map(({ id, label, percentage }) => (
-           <li className={css.item} style={{backgroundColor: getRandomHexColor()}} key={id}>
+          <li className={css.item}
+            style={{ backgroundColor: getRandomHexColor() }}
+            key={id}>
           <span className={css.label}>{label}</span>
           <span className={css.percentage}>{percentage}%</span>
         </li>
